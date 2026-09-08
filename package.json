@@ -1,0 +1,15 @@
+{
+  "name": "catalogo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Catálogo de produtos com foto, quantidade e validade — sincronizado com Google Drive",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "googleapis": "^173.0.0"
+  }
+}
